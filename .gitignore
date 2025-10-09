@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Logs / temporary files
+*.log
+*.sqlite3
+*.db
+*.csv

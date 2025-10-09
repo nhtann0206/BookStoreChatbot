@@ -1,0 +1,5 @@
+{
+  "prompt": "Người dùng còn thiếu tên của bạn, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên.",
+  "response": "Chào bạn! Để đơn hàng của bạn được xử lý nhanh chóng và chính xác nhất, bạn vui lòng cung cấp thêm một vài thông tin nhé:\n\n*   **Tên đầy đủ của bạn là gì ạ?**\n*   **Địa chỉ giao hàng cụ thể của bạn ở đâu ạ?** (Ví dụ: số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố)\n*   **Số điện thoại liên lạc của bạn là gì ạ?**\n\nCảm ơn bạn nhiều vì đã hợp tác! Nếu có bất kỳ câu hỏi nào, đừng ngần ngại hỏi mình nhé. 😊",
+  "timestamp": "2025-10-09T09:54:04.871158"
+}

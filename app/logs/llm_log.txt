@@ -1,0 +1,170 @@
+[2025-10-09T09:03:27.581620]
+[ERROR attempt 1] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:03:29.087367]
+[ERROR attempt 2] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:03:30.588593]
+[ERROR attempt 3] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:03:32.089577]
+[FALLBACK USED] Thiếu thông tin: customer_name, book_title, address, phone. Hãy yêu cầu người dùng bổ sung (giọng thân thiện, tự nhiên)....
+------------------------------------------------------------
+[2025-10-09T09:11:37.540101]
+[ERROR attempt 1] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:11:39.042789]
+[ERROR attempt 2] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:11:40.548119]
+[ERROR attempt 3] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:11:42.053546]
+[FALLBACK USED] Thiếu thông tin: address, phone. Hãy yêu cầu người dùng bổ sung (giọng thân thiện, tự nhiên)....
+------------------------------------------------------------
+[2025-10-09T09:21:04.606652]
+[ERROR attempt 1] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:21:06.110691]
+[ERROR attempt 2] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:21:07.616458]
+[ERROR attempt 3] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:21:09.121889]
+[FALLBACK USED] Viết câu chào bằng tiếng Việt....
+------------------------------------------------------------
+[2025-10-09T09:23:10.470746]
+[ERROR attempt 1] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:23:11.976297]
+[ERROR attempt 2] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:23:13.480965]
+[ERROR attempt 3] 1 validation error for GenerateContentConfig
+generation_config
+  Extra inputs are not permitted [type=extra_forbidden, input_value=GenerationConfig(audio_ti... top_k=None, top_p=None), input_type=GenerationConfig]
+    For further information visit https://errors.pydantic.dev/2.9/v/extra_forbidden
+------------------------------------------------------------
+[2025-10-09T09:23:14.983402]
+[FALLBACK USED] Viết câu chào bằng tiếng Việt....
+------------------------------------------------------------
+[2025-10-09T09:41:19.407478]
+[SUCCESS attempt 1] Xin chào, bạn khỏe không?...
+Chào bạn, tôi khỏe. Cảm ơn bạn đã hỏi thăm. Bạn thế nào?
+------------------------------------------------------------
+[2025-10-09T09:42:54.607231]
+[SUCCESS attempt 1] Thiếu thông tin: customer_name, address, phone. Hãy yêu cầu người dùng bổ sung (giọng thân thiện, tự nhiên)....
+Chào bạn, để mình có thể hỗ trợ bạn tốt nhất, bạn vui lòng cung cấp thêm một chút thông tin nhé:
+
+*   **Tên của bạn là gì ạ?**
+*   **Bạn đang ở đâu ạ? (Địa chỉ)**
+*   **Và số điện thoại liên lạc của bạn là gì ạ?**
+
+Cảm ơn bạn nhiều nha! 😊
+------------------------------------------------------------
+[2025-10-09T09:43:21.509546]
+[CACHE HIT] Thiếu thông tin: customer_name, address, phone. Hãy yêu cầu người dùng bổ sung (giọng thân thiện, tự nhiên)....
+------------------------------------------------------------
+[2025-10-09T09:43:39.512167]
+[CACHE HIT] Thiếu thông tin: customer_name, address, phone. Hãy yêu cầu người dùng bổ sung (giọng thân thiện, tự nhiên)....
+------------------------------------------------------------
+[2025-10-09T09:54:04.871824]
+[SUCCESS attempt 1] Người dùng còn thiếu tên của bạn, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người dùng cung cấp những thông tin...
+Chào bạn! Để đơn hàng của bạn được xử lý nhanh chóng và chính xác nhất, bạn vui lòng cung cấp thêm một vài thông tin nhé:
+
+*   **Tên đầy đủ của bạn là gì ạ?**
+*   **Địa chỉ giao hàng cụ thể của bạn ở đâu ạ?** (Ví dụ: số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố)
+*   **Số điện thoại liên lạc của bạn là gì ạ?**
+
+Cảm ơn bạn nhiều vì đã hợp tác! Nếu có bất kỳ câu hỏi nào, đừng ngần ngại hỏi mình nhé. 😊
+------------------------------------------------------------
+[2025-10-09T09:54:21.528209]
+[CACHE HIT] Người dùng còn thiếu tên của bạn, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên....
+------------------------------------------------------------
+[2025-10-09T09:54:38.705069]
+[CACHE HIT] Người dùng còn thiếu tên của bạn, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên....
+------------------------------------------------------------
+[2025-10-09T09:55:17.623341]
+[SUCCESS attempt 1] Người dùng còn thiếu tên của bạn, địa chỉ giao hàng. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thi...
+Chào bạn! Để mình có thể hỗ trợ bạn tốt nhất và hoàn tất đơn hàng, bạn vui lòng cung cấp thêm một chút thông tin nhé:
+
+*   **Tên của bạn là gì ạ?**
+*   Và **địa chỉ giao hàng** bạn muốn nhận hàng là ở đâu ạ?
+
+Cảm ơn bạn nhiều! 😊
+------------------------------------------------------------
+[2025-10-09T09:55:30.623169]
+[CACHE HIT] Người dùng còn thiếu tên của bạn, địa chỉ giao hàng. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên....
+------------------------------------------------------------
+[2025-10-09T09:55:45.851659]
+[CACHE HIT] Người dùng còn thiếu tên của bạn, địa chỉ giao hàng. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên....
+------------------------------------------------------------
+[2025-10-09T09:55:51.878388]
+[CACHE HIT] Người dùng còn thiếu tên của bạn, địa chỉ giao hàng. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên....
+------------------------------------------------------------
+[2025-10-09T09:58:07.757942]
+[SUCCESS attempt 1] Người dùng còn thiếu tên của bạn, tên sách muốn mua, số lượng, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người ...
+Chào bạn! Rất vui được hỗ trợ bạn đặt sách hôm nay ạ.
+
+Để mình có thể giúp bạn hoàn tất đơn hàng nhanh chóng và chính xác nhất, bạn vui lòng cung cấp thêm một vài thông tin nhé:
+
+*   **Tên của bạn là gì ạ?** (Để mình tiện xưng hô và ghi nhận đơn hàng ạ)
+*   **Bạn muốn mua cuốn sách nào ạ?** (Tên sách và tác giả nếu có nhé)
+*   **Bạn cần bao nhiêu cuốn ạ?**
+*   **Địa chỉ giao hàng cụ thể của bạn là ở đâu ạ?** (Số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố)
+*   **Và cuối cùng, số điện t
+------------------------------------------------------------
+[2025-10-09T10:16:45.010051]
+[SUCCESS attempt 1] Người dùng còn thiếu tên của bạn, số lượng, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người dùng cung cấp những...
+Chào bạn! Để đơn hàng của bạn được xử lý nhanh chóng và chính xác nhất, bạn vui lòng cung cấp thêm một vài thông tin nhé:
+
+*   **Tên đầy đủ của bạn là gì ạ?**
+*   **Bạn muốn đặt bao nhiêu sản phẩm?**
+*   **Địa chỉ giao hàng cụ thể của bạn ở đâu vậy ạ?** (Số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố)
+*   **Và số điện thoại liên lạc thuận tiện nhất của bạn là gì ạ?**
+
+Cảm ơn bạn nhiều nha! 😊
+------------------------------------------------------------
+[2025-10-09T10:22:47.459676]
+[CACHE HIT] Xin chào, bạn khỏe không?...
+------------------------------------------------------------
+[2025-10-09T10:23:58.732506]
+[CACHE HIT] Người dùng còn thiếu tên của bạn, số lượng, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên....
+------------------------------------------------------------
+[2025-10-09T10:25:35.494317]
+[CACHE HIT] Người dùng còn thiếu tên của bạn, số lượng, địa chỉ giao hàng, số điện thoại liên lạc. Hãy hỏi người dùng cung cấp những thông tin này, với giọng thân thiện, tự nhiên....
+------------------------------------------------------------

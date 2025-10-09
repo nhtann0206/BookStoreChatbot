@@ -1,36 +1,21 @@
 import streamlit as st
-from app import nlu, db, router, utils
-from dotenv import load_dotenv
-import os, uuid
+import requests
 
-load_dotenv()
+API_URL = "http://localhost:8000/chat"
 
-st.set_page_config(page_title='BookStore Chatbot', layout='centered')
-st.title('📚 BookStore — Chatbot')
+st.title("📚 Bookstore Chatbot")
 
-if 'session_id' not in st.session_state:
-    st.session_state['session_id'] = str(uuid.uuid4())
-sid = st.session_state['session_id']
+if "history" not in st.session_state:
+    st.session_state.history = []
 
-if 'messages' not in st.session_state:
-    st.session_state['messages'] = [
-        {'role':'assistant','content': 'Chào bạn! Tôi có thể giúp gì cho bạn? (Ví dụ: "Tôi muốn mua 2 cuốn Truyện Kiều")'}
-    ]
-if 'session_data' not in st.session_state:
-    st.session_state['session_data'] = {}
+user_input = st.chat_input("Nhập tin nhắn của bạn...")
 
-for msg in st.session_state['messages']:
-    st.chat_message(msg['role']).markdown(msg['content'])
-
-user_input = st.chat_input('Nhập câu hỏi hoặc yêu cầu...')
 if user_input:
-    st.session_state['messages'].append({'role':'user','content': user_input})
-    st.chat_message('user').markdown(user_input)
+    st.session_state.history.append(("user", user_input))
+    resp = requests.post(API_URL, json={"user_input": user_input})
+    bot_reply = resp.json().get("reply", "Lỗi phản hồi.")
+    st.session_state.history.append(("bot", bot_reply))
 
-    parsed = nlu.parse_user_input(user_input)
-    st.chat_message('assistant').markdown('Bot đang xử lý...')
-
-    response = router.handle(parsed, sid, st.session_state['session_data'], db, utils)
-
-    st.session_state['messages'].append({'role':'assistant','content': response})
-    st.chat_message('assistant').markdown(response)
+for role, msg in st.session_state.history:
+    with st.chat_message("user" if role == "user" else "assistant"):
+        st.markdown(msg)
